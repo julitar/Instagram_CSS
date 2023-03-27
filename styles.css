@@ -11,7 +11,7 @@ h2 {
 h3 {justify-content: right;
     font-size: small;
     color: #5B51D8;}
-    
+
     
 header {
     background-color: white;
@@ -88,7 +88,10 @@ header {
 
 }
 
-.icons {
-    display: flex;
-    flex-direction: row;
+#bookmark {
+    margin-left: 600px;
+}
+
+.material-symbols-outlined {
+    padding: 8px;
 }
