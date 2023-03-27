@@ -1,14 +1,19 @@
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 12pt;}
+    font-size: 12pt;
+    margin-top: 1px;
+}
 
 h2 {
+    font-family: 'Roboto', sans-serif;
     justify-content: left;
     font-size: 16pt;
     width: 90%;}
 
     
-h3 {justify-content: right;
+h3 {
+    font-family: 'Roboto', sans-serif;
+    justify-content: right;
     font-size: small;
     color: #5B51D8;}
 
@@ -33,6 +38,7 @@ header {
 .timeline {
     background-color: gainsboro;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 } 
@@ -60,9 +66,8 @@ header {
 }
 
 .profile img {
-    width: 10%;
-    height: auto;
-    border-radius: 50%;
+    width: 20px;
+    height: 20px;
     object-fit:cover;
 }
 
@@ -85,11 +90,12 @@ header {
     display: flex;
     flex-direction: column;
     padding-left: 20px;
+    padding-right: 20px;
 
 }
 
 #bookmark {
-    margin-left: 600px;
+    margin-left: 580px;
 }
 
 .material-symbols-outlined {
