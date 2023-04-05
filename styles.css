@@ -1,7 +1,7 @@
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 12pt;
-    margin-top: 1px;
+    margin: 5px;
 }
 
 h2 {
@@ -102,3 +102,4 @@ header {
 .material-symbols-outlined {
     padding: 8px;
 }
+
